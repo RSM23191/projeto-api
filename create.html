@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-page="create">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Criar Post | API Demo</title>
+  <link rel="stylesheet" href="css/estilo.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Criar Post</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="create.html" aria-current="page">Criar Post</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <form id="createForm" class="card form">
+      <label>
+        Título
+        <input required type="text" name="title" placeholder="Digite o título" />
+      </label>
+      <label>
+        Conteúdo
+        <textarea required name="body" rows="6" placeholder="Digite o conteúdo"></textarea>
+      </label>
+      <button type="submit">Enviar (POST)</button>
+      <p id="createMsg" class="msg" role="status" aria-live="polite"></p>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <small>Envios são simulados (mock).</small>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
