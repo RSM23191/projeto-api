@@ -1,1 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br" data-page="index">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>API Demo | Posts + Imagens</title>
+  <link rel="stylesheet" href="css/estilo.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>API Demo</h1>
+    <nav>
+      <a href="index.html">Início</a>
+      <a href="create.html">Criar Post</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section>
+      <h2>Posts (JSONPlaceholder)</h2>
+      <p class="muted">Demonstração de <strong>GET</strong>. Clique em “Editar” para ir ao PUT/DELETE.</p>
+      <div id="posts" class="cards"></div>
+    </section>
+
+    <section>
+      <h2>Galeria (Picsum)</h2>
+      <p class="muted">Imagens carregadas via API pública.</p>
+      <div id="gallery" class="gallery"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <small>Feito com APIs públicas • <a href="https://jsonplaceholder.typicode.com/" target="_blank" rel="noopener">JSONPlaceholder</a> & <a href="https://picsum.photos/" target="_blank" rel="noopener">Picsum</a></small>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
 
